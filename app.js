@@ -15,18 +15,13 @@ const navSlide = () => {
     burger.addEventListener('click', () => {
       // Toggle Nav
       nav.classList.toggle('nav-active');
+      
       // animate navlinks
-      navLinks.forEach(setStyleLink);
+     
       // burger animation
       burger.classList.toggle('toggle');
     });
   }
   
-  function setStyleLink(el, index) {
-    if (el.style.animation) {
-      el.style.animation = ''
-    } else {
-      el.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 +0.5}s`;
-    }
-  }
+  
   navSlide();
