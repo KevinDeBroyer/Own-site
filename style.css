@@ -110,7 +110,6 @@ nav {
   color: var(--Accents);
 }
 
-
 .logo a {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -279,21 +278,14 @@ nav {
     background-color: var(--Background);
     font-family: "Montserrat", sans-serif;
   }
-/* Nav*/
-   .logo a{
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--Text);
+  /* Nav*/
+  .logo a {
     font-size: 0.9rem;
-    position: absolute;
     top: 2rem;
     left: 10rem;
-    text-decoration: none;
-    cursor: pointer;
-   }
+  }
 
-   .burger {
+  .burger {
     position: absolute;
     top: 2rem;
     right: 10rem;
@@ -308,8 +300,6 @@ nav {
     align-items: center;
     height: 82vh;
     top: 5vh;
-    
-    
   }
 
   .nav-links a {
@@ -318,8 +308,8 @@ nav {
     letter-spacing: 5px;
     font-size: 0.9rem;
     font-weight: 2rem;
-     }
-    
+  }
+
   .painting-1 {
     width: 65%;
   }
@@ -330,8 +320,7 @@ nav {
   }
   .date-painting1 {
     margin-left: 20rem;
-  margin-top: -5rem;
-  
+    margin-top: -5rem;
   }
   .cta-paintings-2020 {
     margin-left: -31rem;
@@ -341,7 +330,7 @@ nav {
     padding: 0.5rem;
   }
   /* pagina 2 */
-    
+
   .painting-2 {
     width: 65%;
   }
@@ -352,8 +341,7 @@ nav {
   }
   .date-painting2 {
     margin-left: 20rem;
-  margin-top: -5rem;
-  
+    margin-top: -5rem;
   }
   .cta-paintings-2019 {
     margin-left: -31rem;
@@ -373,8 +361,7 @@ nav {
   }
   .date-painting3 {
     margin-left: 20rem;
-  margin-top: -5rem;
-  
+    margin-top: -5rem;
   }
   .cta-paintings-2018 {
     margin-left: -31rem;
@@ -383,8 +370,105 @@ nav {
   .cta-paintings-2018 a {
     padding: 0.5rem;
   }
-
-
-
-
 }
+@media (max-width: 414px) {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    
+  }
+  .logo a {
+    top: 1rem;
+    left: 2rem;
+    font-size: 0.7rem;
+  }
+  .burger {
+    position: absolute;
+    top: 1rem;
+    right: 8rem;
+    
+  }
+  .nav-links {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+    top: 5vh;
+  }
+  .container {
+    padding-top: 5rem;
+  }
+  .painting-1 {
+    width: 55%;
+  }
+  .title-painting1 {
+    margin-top: 0rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+  }
+  .date-painting1 {
+    margin-left: 6rem;
+    margin-top: -2rem;
+    font-size: 2rem;
+  }
+  .cta-paintings-2020 {
+    margin-left: -41rem;
+    margin-top: 1.2rem;
+  }
+  .cta-paintings-2020 a {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .container2 {
+    padding-top: 5rem;
+  }
+  .painting-2 {
+    width: 55%;
+  }
+  .title-painting2 {
+    margin-top: 0rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+  }
+  .date-painting2 {
+    margin-left: 6rem;
+    margin-top: -2rem;
+    font-size: 2rem;
+  }
+  .cta-paintings-2019 {
+    margin-left: -41rem;
+    margin-top: 1.2rem;
+  }
+  .cta-paintings-2019 a {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .container3 {
+    padding-top: 5rem;
+  }
+  .painting-3 {
+    width: 55%;
+  }
+  .title-painting3 {
+    margin-top: 0rem;
+    margin-left: 6rem;
+    font-size: 1rem;
+  }
+  .date-painting3 {
+    margin-left: 6rem;
+    margin-top: -2rem;
+    font-size: 2rem;
+  }
+  .cta-paintings-2018 {
+    margin-left: -41rem;
+    margin-top: 1.2rem;
+  }
+  .cta-paintings-2018 a {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
