@@ -1,3 +1,7 @@
+/* - Je kon de eerste pagina met 1 container doen
+    - menu animatie kijken
+*/
+
 html,
 body {
   height: 100%;
@@ -120,6 +124,7 @@ nav {
   cursor: pointer;
 }
 /* Hero Page*/
+
 .container {
   text-align: center;
   display: block;
@@ -150,7 +155,7 @@ nav {
   margin-left: 24rem;
 }
 
-.paintings-2020 a {
+.cta-paintings-2020 a {
   border: 1px solid var(--Text);
   text-decoration: none;
   font-size: 1.2rem;
@@ -161,7 +166,7 @@ nav {
   border-radius: 5%;
   text-transform: uppercase;
 }
-.paintings-2020 a:hover {
+.cta-paintings-2020 a:hover {
   color: var(--Accents);
   border: 2px solid var(--Accents);
   cursor: pointer;
@@ -196,7 +201,7 @@ nav {
   margin-left: 24rem;
 }
 
-.paintings-2019 a {
+.cta-paintings-2019 a {
   border: 1px solid var(--Text);
   text-decoration: none;
   font-size: 1.2rem;
@@ -207,7 +212,7 @@ nav {
   border-radius: 5%;
   text-transform: uppercase;
 }
-.paintings-2019 a:hover {
+.cta-paintings-2019 a:hover {
   color: var(--Accents);
   border: 2px solid var(--Accents);
   cursor: pointer;
@@ -245,7 +250,7 @@ nav {
   margin-left: 24rem;
 }
 
-.paintings-2018 a {
+.cta-paintings-2018 a {
   border: 1px solid var(--Text);
   text-decoration: none;
   font-size: 1.2rem;
@@ -256,9 +261,130 @@ nav {
   border-radius: 5%;
   text-transform: uppercase;
 }
-.paintings-2018 a:hover {
+.cta-paintings-2018 a:hover {
   color: var(--Accents);
   border: 2px solid var(--Accents);
   cursor: pointer;
   background-color: var(--Background);
+}
+
+/* Reponsive Web */
+@media (max-width: 768px) {
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Background);
+    font-family: "Montserrat", sans-serif;
+  }
+/* Nav*/
+   .logo a{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--Text);
+    font-size: 0.9rem;
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+   .burger {
+    position: absolute;
+    top: 2rem;
+    right: 10rem;
+    cursor: pointer;
+    display: block;
+  }
+  /* Pagina 1 (alles kon samen)*/
+  .nav-links {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 82vh;
+    top: 5vh;
+    
+    
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--Text);
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+    font-weight: 2rem;
+     }
+    
+  .painting-1 {
+    width: 65%;
+  }
+  .title-painting1 {
+    margin-top: 0rem;
+    margin-left: 8rem;
+    font-size: rem;
+  }
+  .date-painting1 {
+    margin-left: 20rem;
+  margin-top: -5rem;
+  
+  }
+  .cta-paintings-2020 {
+    margin-left: -31rem;
+    margin-top: 3rem;
+  }
+  .cta-paintings-2020 a {
+    padding: 0.5rem;
+  }
+  /* pagina 2 */
+    
+  .painting-2 {
+    width: 65%;
+  }
+  .title-painting2 {
+    margin-top: 0rem;
+    margin-left: 8rem;
+    font-size: rem;
+  }
+  .date-painting2 {
+    margin-left: 20rem;
+  margin-top: -5rem;
+  
+  }
+  .cta-paintings-2019 {
+    margin-left: -31rem;
+    margin-top: 3rem;
+  }
+  .cta-paintings-2019 a {
+    padding: 0.5rem;
+  }
+  /* pagina 3*/
+  .painting-3 {
+    width: 65%;
+  }
+  .title-painting3 {
+    margin-top: 0rem;
+    margin-left: 8rem;
+    font-size: rem;
+  }
+  .date-painting3 {
+    margin-left: 20rem;
+  margin-top: -5rem;
+  
+  }
+  .cta-paintings-2018 {
+    margin-left: -31rem;
+    margin-top: 3rem;
+  }
+  .cta-paintings-2018 a {
+    padding: 0.5rem;
+  }
+
+
+
+
 }
