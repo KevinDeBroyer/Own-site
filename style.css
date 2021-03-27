@@ -300,6 +300,8 @@ nav {
     align-items: center;
     height: 82vh;
     top: 5vh;
+    
+    
   }
 
   .nav-links a {
@@ -307,7 +309,8 @@ nav {
     color: var(--Text);
     letter-spacing: 5px;
     font-size: 0.9rem;
-    font-weight: 2rem;
+    font-weight: 1.5rem;
+    
   }
 
   .painting-1 {
@@ -386,89 +389,106 @@ nav {
     left: 2rem;
     font-size: 0.7rem;
   }
+  .nav-links a {
+    margin-left: 0.5;
+    
+  }
   .burger {
     position: absolute;
     top: 1rem;
-    right: 8rem;
+    right: 4rem;
     
   }
+  
   .nav-links {
-    width: 10rem;
+    width: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 92vh;
     top: 5vh;
   }
+  
+ 
+
   .container {
     padding-top: 5rem;
   }
   .painting-1 {
-    width: 55%;
+    width: 65%;
   }
   .title-painting1 {
     margin-top: 0rem;
-    margin-left: 6rem;
+    margin-left: 4.5rem;
     font-size: 1rem;
   }
   .date-painting1 {
-    margin-left: 6rem;
+    margin-left: 4.5rem;
     margin-top: -2rem;
     font-size: 2rem;
   }
   .cta-paintings-2020 {
-    margin-left: -41rem;
-    margin-top: 1.2rem;
+    margin-left: -55rem;
+    margin-top: -3rem;
   }
   .cta-paintings-2020 a {
     padding: 0.5rem;
     font-size: 0.8rem;
+    border: 1px solid var(--Background);
+    color: var(--Background);
   }
   .container2 {
     padding-top: 5rem;
   }
   .painting-2 {
-    width: 55%;
+    width: 85%;
   }
   .title-painting2 {
     margin-top: 0rem;
-    margin-left: 6rem;
-    font-size: 1rem;
+    margin-left: 2rem;
+    font-size: 1rem;;
   }
   .date-painting2 {
-    margin-left: 6rem;
+    margin-left: 2rem;
     margin-top: -2rem;
     font-size: 2rem;
   }
   .cta-paintings-2019 {
-    margin-left: -41rem;
-    margin-top: 1.2rem;
+    margin-left: -60rem;
+    margin-top: -3rem;
   }
   .cta-paintings-2019 a {
     padding: 0.5rem;
     font-size: 0.8rem;
+    border: 1px solid var(--Background);
+    color: var(--Background);
   }
   .container3 {
     padding-top: 5rem;
   }
   .painting-3 {
-    width: 55%;
+    width: 85%;
   }
   .title-painting3 {
     margin-top: 0rem;
-    margin-left: 6rem;
+    margin-left: 2rem;
     font-size: 1rem;
+    
   }
   .date-painting3 {
-    margin-left: 6rem;
+    margin-left: 2rem;
     margin-top: -2rem;
     font-size: 2rem;
   }
   .cta-paintings-2018 {
-    margin-left: -41rem;
-    margin-top: 1.2rem;
+    margin-left: -60rem;
+    margin-top: -3rem;
+    
   }
+ 
   .cta-paintings-2018 a {
     padding: 0.5rem;
     font-size: 0.8rem;
+    border: 1px solid var(--Background);
+    color: var(--Background);
   }
